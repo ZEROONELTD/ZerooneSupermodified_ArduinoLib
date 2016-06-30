@@ -1,0 +1,74 @@
+#######################################
+# Syntax Coloring Map For Wire
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ZO_PROTOCOL_PACKET	KEYWORD1
+ZO_HW_TYPE	KEYWORD1
+ZO_HW_ABSTRACTION	KEYWORD1
+ZO_PROTOCOL_UART_DECODER_STATE	KEYWORD1
+ZerooneSupermodified	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getCommunicationSuccess	KEYWORD2
+getWarning	KEYWORD2
+end	KEYWORD2
+setProfileAcceleration	KEYWORD2
+setProfileConstantVelocity	KEYWORD2
+setCurrentLimit	KEYWORD2
+setDurationForCurrentLimit	KEYWORD2
+moveWithVelocity	KEYWORD2
+moveToAbsolutePosition	KEYWORD2
+moveToRelativePosition	KEYWORD2
+profiledMoveWithVelocity	KEYWORD2
+profiledMoveToAbsolutePosition	KEYWORD2
+profiledMoveToRelativePosition	KEYWORD2
+setVelocitySetpoint	KEYWORD2
+setAbsolutePositionSetpoint	KEYWORD2
+setRelativePositionSetpoint	KEYWORD2
+setProfiledVelocitySetpoint	KEYWORD2
+setProfiledAbsolutePositionSetpoint	KEYWORD2
+setProfiledRelativePositionSetpoint	KEYWORD2
+configureDigitalIOs	KEYWORD2
+setDigitalOutputs	KEYWORD2
+resetIncrementalPosition	KEYWORD2
+start	KEYWORD2
+halt	KEYWORD2
+stop	KEYWORD2
+resetErrors	KEYWORD2
+getProfileAcceleration	KEYWORD2
+getProfileConstantVelocity	KEYWORD2
+getCurrentLimit	KEYWORD2
+getCurrentLimitDuration	KEYWORD2
+getDigitalIOConfiguration	KEYWORD2
+getDigitalIn	KEYWORD2
+getAnalogIn	KEYWORD2
+getPosition	KEYWORD2
+getAbsolutePosition	KEYWORD2
+getVelocity	KEYWORD2
+getCurrent	KEYWORD2
+broadCastDoMove	KEYWORD2
+broadcastStart	KEYWORD2
+broadcastHalt	KEYWORD2
+broadcastStop	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ZO_WARNING_NONE	LITERAL1
+ZO_WARNING_WIRE_PACKET_OVERWRITTEN	LITERAL1
+ZO_WARNING_WIRE_BUFFER_NOT_ENOUGH	LITERAL1
+ZO_WARNING_WIRE_NO_ACKNOIWLEDGE	LITERAL1
+ZO_WARNING_WIRE_BUS_ERROR	LITERAL1
+ZO_WARNING_WRONG_LRC	LITERAL1
+ZO_WARNING_RESPONSE_TIMEOUT	LITERAL1
