@@ -22,6 +22,9 @@ end	KEYWORD2
 setProfileAcceleration	KEYWORD2
 setProfileConstantVelocity	KEYWORD2
 setCurrentLimit	KEYWORD2
+setPIDgainP KEYWORD2
+setPIDgainI	KEYWORD2
+setPIDgainD	KEYWORD2
 setDurationForCurrentLimit	KEYWORD2
 moveWithVelocity	KEYWORD2
 moveToAbsolutePosition	KEYWORD2
@@ -53,6 +56,9 @@ getPosition	KEYWORD2
 getAbsolutePosition	KEYWORD2
 getVelocity	KEYWORD2
 getCurrent	KEYWORD2
+getPIDgainP	KEYWORD2
+getPIDgainI	KEYWORD2
+getPIDgainD	KEYWORD2
 broadCastDoMove	KEYWORD2
 broadcastStart	KEYWORD2
 broadcastHalt	KEYWORD2
