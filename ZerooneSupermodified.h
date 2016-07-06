@@ -27,13 +27,13 @@
 #define ZO_PROTOCOL_COMMAND_RESPONSE_TIMEOUT_MS			200
 
 //--Warnings--------------------------------------------------------------------
-#define ZO_WARNING_NONE									0
-#define ZO_WARNING_WIRE_PACKET_OVERWRITTEN				100
-#define ZO_WARNING_WIRE_BUFFER_NOT_ENOUGH				101
-#define ZO_WARNING_WIRE_NO_ACKNOIWLEDGE					102
-#define ZO_WARNING_WIRE_BUS_ERROR						103
-#define ZO_WARNING_WRONG_LRC							104
-#define ZO_WARNING_RESPONSE_TIMEOUT						105
+#define ZO_WARNING_NONE						0
+#define ZO_WARNING_WIRE_PACKET_OVERWRITTEN			100
+#define ZO_WARNING_WIRE_BUFFER_NOT_ENOUGH			101
+#define ZO_WARNING_WIRE_NO_ACKNOIWLEDGE				102
+#define ZO_WARNING_WIRE_BUS_ERROR				103
+#define ZO_WARNING_WRONG_LRC					104
+#define ZO_WARNING_RESPONSE_TIMEOUT				105
 
 class zoSms
 {
@@ -45,18 +45,18 @@ class zoSms
 		static volatile bool CommSuccess;
 		static uint8_t Warning;
 		
-		static void wireRxHandler(int numbytes);			
-		static bool putPacketSerial(const ZO_PROTOCOL_PACKET*);					
-		static bool getPacketSerial(ZO_PROTOCOL_PACKET*);							
-		static bool putPacketWire(const ZO_PROTOCOL_PACKET*);						
-		static bool getPacketWire(ZO_PROTOCOL_PACKET*);	
+		static void wireRxHandler(int numbytes);
+		static bool putPacketSerial(const ZO_PROTOCOL_PACKET*);	
+		static bool getPacketSerial(ZO_PROTOCOL_PACKET*);
+		static bool putPacketWire(const ZO_PROTOCOL_PACKET*);
+		static bool getPacketWire(ZO_PROTOCOL_PACKET*);
 		bool getResponse(ZO_PROTOCOL_PACKET*);
-		uint8_t calcLRC(ZO_PROTOCOL_PACKET* packet);									
+		uint8_t calcLRC(ZO_PROTOCOL_PACKET* packet);
 	
 	public:
-		zoSms();														
-		zoSms(ZO_HW_TYPE);																					
-		zoSms(ZO_HW_TYPE,int rs485ReDePin);			
+		zoSms();
+		zoSms(ZO_HW_TYPE);
+		zoSms(ZO_HW_TYPE,int rs485ReDePin);
 		bool getCommunicationSuccess();
 		uint8_t getWarning();
 		void end();
