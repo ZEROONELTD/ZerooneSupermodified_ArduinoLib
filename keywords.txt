@@ -22,7 +22,7 @@ end	KEYWORD2
 setProfileAcceleration	KEYWORD2
 setProfileConstantVelocity	KEYWORD2
 setCurrentLimit	KEYWORD2
-setPIDgainP KEYWORD2
+setPIDgainP	KEYWORD2
 setPIDgainI	KEYWORD2
 setPIDgainD	KEYWORD2
 setDurationForCurrentLimit	KEYWORD2
